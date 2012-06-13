@@ -1,9 +1,11 @@
 {
   "irc": {
-    "nick": "motown-dev"
+    "nick": "motown",
+    "server": "localhost",
+    "retryDelay": 200
   },
   "logger": {
-    "level": "silly"
+    "level": "verbose"
   },
   "bind_to": {
     "port": 3000
@@ -13,9 +15,9 @@
   "mysql": {
     "user": "motown",
     "password": "motown",
-    "database": "motown"
+    "database": "motown_test"
   },
   "social_provider": {
-    "name_suffix": "-dev"
+    "name_suffix": "-wex"
   }
 }
